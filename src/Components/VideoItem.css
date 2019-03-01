@@ -1,0 +1,31 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.img-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.video-item.item img {
+    max-width: 200px;
+  
+}
+.duration-time{
+    position: absolute;
+    width: auto;
+    height: 17px;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.title_{
+    margin-left: 5px;
+}
